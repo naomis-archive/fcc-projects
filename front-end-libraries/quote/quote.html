@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link
+      rel="stylesheet"
+      href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css"
+      integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u"
+      crossorigin="anonymous"
+    />
+    <link
+      rel="stylesheet"
+      href="https://use.fontawesome.com/releases/v5.8.1/css/all.css"
+      integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" type="text/css" href="quote.css" />
+    <script src="quote.js"></script>
+    <title>Document</title>
+  </head>
+  <body onLoad="setup()">
+    <h1>Motivational Quotes</h1>
+    <p>Do you need some motivation to keep yourself on track? This app will give you an inspirational quote! The quotes are provided by freeCodeCamp's repository.</p>
+    <p>Hit the refresh button below to get a new quote! Hit the tweet button to share the quote you like with your twitter followers!</p>
+    <div id="quote-box" class="text-center">
+      <button class="btn btn-default" id="new-quote" onClick="generateQuote()">
+        <i class="fas fa-sync-alt"></i>
+      </button>
+      <button class="btn btn-default" id="tweet">
+        <a
+          class="tweet"
+          href="https://twitter.com/intent/tweet"
+          target="_blank"
+          rel="noopener noreferrer"
+          id="tweet-quote"
+          ><i class="fab fa-twitter"></i
+        ></a>
+      </button>
+      <h1 id="text"><span id="quotetext"></span></h1>
+      <p id="author"><span id="quoteauthor"></span></p>
+    </div>
+  </body>
+  <footer>
+    <a href="../index.html">Return to Project List</a> |
+    <a href="https://www.nhcarrigan.com">Return to HomePage</a>
+  </footer>
+  <script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script>
+</html>

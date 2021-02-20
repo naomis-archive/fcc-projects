@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link
+      rel="stylesheet"
+      href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css"
+      integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u"
+      crossorigin="anonymous"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Wallpoet&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/css/all.min.css"
+    />
+    <link rel="stylesheet" type="text/css" href="clock.css" />
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.0/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.24.0/moment.min.js"></script>
+    <title>25+5 Clock</title>
+  </head>
+  <body>
+    <h1>25+5 Clock</h1>
+    <p>
+      Use this clock to manage your productivity. Set a work time and a break
+      time, then click the start button.
+    </p>
+    <p>
+      The clock will automatically run your work time, play an alarm, switch to
+      break time, play an alarm, then back to work time.
+    </p>
+    <div id="grid">
+      <div id="break-box">
+        <div id="break-label">Break Time!</div>
+        <div id="button-row">
+          <button id="break-decrement" onClick="breakDown()">
+            <i class="fas fa-arrow-down"></i>
+          </button>
+          <span id="break-length">5</span>
+          <button id="break-increment" onClick="breakUp()">
+            <i class="fas fa-arrow-up"></i>
+          </button>
+        </div>
+      </div>
+      <div id="session-box">
+        <div id="session-label">Work Time!</div>
+        <div id="button-row">
+          <button id="session-decrement" onClick="sessionDown()">
+            <i class="fas fa-arrow-down"></i>
+          </button>
+          <span id="session-length">25</span>
+          <button id="session-increment" onClick="sessionUp()">
+            <i class="fas fa-arrow-up"></i>
+          </button>
+        </div>
+      </div>
+    </div>
+    <div id="timer">
+      <div id="timer-label">Work</div>
+      <br />
+      <div><span id="time-left">25:00</span></div>
+      <br />
+      <div id="button-row">
+        <button id="start_stop"><i class="fas fa-play"></i></button>
+        <button id="reset" onClick="resetButton()">
+          <i class="fas fa-redo-alt"></i>
+        </button>
+      </div>
+      <audio id="beep"
+      src=http://soundbible.com/mp3/A-Tone-His_Self-1266414414.mp3 hidden>
+    </div>
+  </body>
+  <script src="clock.js"></script>
+  <footer>
+    <a href="../index.html">Return to Project List</a> |
+    <a href="https://www.nhcarrigan.com">Return to HomePage</a>
+  </footer>
+  <script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script>
+</html>
