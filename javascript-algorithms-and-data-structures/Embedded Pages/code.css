@@ -1,0 +1,28 @@
+body {
+  margin: 0 0 0 0;
+  background-color: #3a3240;
+  color: #aea8d3;
+  text-align: center;
+}
+
+.code-card {
+    max-width: 750px;
+    width: 90vw;
+    margin: auto;
+    background-color: #aea8d3;
+    color: #3a3240;
+    font-size: 1.2em;
+    padding: 10px 5px;
+    border-radius: 50px;
+    box-shadow: 10px 10px 10px 10px rgba(0, 0, 0, 0.5);
+    text-align: left;
+}
+
+footer {
+    margin-top: 20px;
+    font-size: 1.2em;
+  }
+  
+  footer > a {
+    color: #aea8d3;
+  }

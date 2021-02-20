@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" type="text/css" href="./code.css" />
+    <title>Palindrome Checker</title>
+  </head>
+  <body>
+    <h1>Palindrome Checker</h1>
+    <div class="code-card">
+      <pre>
+        <code>
+function palindrome(str) {
+    return (
+      str.toLowerCase().replace(/[^a-z0-9]/g, "") ===
+      str
+        .toLowerCase()
+        .replace(/[^a-z0-9]/g, "")
+        .split("")
+        .reverse()
+        .join("")
+    );
+  }
+        </code>
+      </pre>
+    </div>
+  </body>
+  <footer><a href="../index.html">Return to Project List</a></footer>
+</html>
