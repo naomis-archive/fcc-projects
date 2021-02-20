@@ -1,0 +1,31 @@
+body {
+    background-color: #632b80;
+    color: #ffffff;
+    margin: 0;
+    text-align: center;
+  }
+  
+  a {
+    color: #ffffff;
+  }
+
+  .post {
+      width: 500px;
+      background-color: grey;
+      border-radius: 10px;
+      margin: auto;
+      color: black;
+      box-shadow: 10px 10px 5px 6px #3c2747;
+  }
+
+  .title {
+      font-size: 18pt;
+      margin-bottom: 0;
+  }
+
+  .date {
+      font-style: italic;
+      font-size: 12pt;
+      margin-top: 0;
+  }
+

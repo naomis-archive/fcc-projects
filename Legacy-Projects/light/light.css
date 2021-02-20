@@ -1,0 +1,55 @@
+body {
+    background-color: #632b80;
+    color: #ffffff;
+    margin: 0;
+    text-align: center;
+  }
+  
+  a {
+    color: #ffffff;
+  }
+
+  .light-bright {
+      display: inline-grid;
+      grid-template-columns: repeat(20, 50px);
+      margin: auto;
+  }
+
+  .light {
+      width: 50px;
+      height: 50px;
+      border-radius: 50%;
+      background-color: black;
+  }
+
+  .red {
+      background: radial-gradient(white, red) !important;
+  }
+
+  .blue {
+    background: radial-gradient(white, blue) !important;
+  }
+
+  .green {
+    background: radial-gradient(white, green) !important;
+  }
+
+  .yellow {
+    background: radial-gradient(white, yellow) !important;
+  }
+
+  .purple {
+    background: radial-gradient(white, purple) !important;
+  }
+
+  .orange {
+    background: radial-gradient(white, orangered) !important;
+  }
+
+  .teal {
+    background: radial-gradient(white, teal) !important;
+  }
+
+  .white {
+    background: radial-gradient(white, grey) !important;
+  }

@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <title>Tic-Tac-Toe</title>
+    <link rel="stylesheet" type="text/css" href="style.css" />
+  </head>
+  <body>
+    <h1>Tic-Tac-Toe!</h1>
+    <p>
+      Welcome to the game! To start, click the "Start" button! You may choose to
+      play X or O with the buttons below.
+    </p>
+    <button onclick="playervar('x')">Play as X</button>
+    <button onclick="playervar('o')">Play as O</button>
+    <div id="game-container">
+      <div class="game-space" id="1" onclick="playerturn('1')"></div>
+      <div class="game-space" id="2" onclick="playerturn('2')"></div>
+      <div class="game-space" id="3" onclick="playerturn('3')"></div>
+      <div class="game-space" id="4" onclick="playerturn('4')"></div>
+      <div class="game-space" id="5" onclick="playerturn('5')"></div>
+      <div class="game-space" id="6" onclick="playerturn('6')"></div>
+      <div class="game-space" id="7" onclick="playerturn('7')"></div>
+      <div class="game-space" id="8" onclick="playerturn('8')"></div>
+      <div class="game-space" id="9" onclick="playerturn('9')"></div>
+    </div>
+    <button onclick="gamestart()" id="start">Start</button>
+    <button onclick="reset()" id="reset">Reset</button>
+    <script src="app.js"></script>
+  </body>
+  <footer>
+    <p>
+      Created by
+      <a
+        href="https://www.nhcarrigan.com"
+        target="_blank"
+        rel="noopener noreferrer"
+        >Nicholas Carrigan</a
+      >
+    </p>
+  </footer>
+</html>

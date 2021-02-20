@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8" />
+    <link rel="stylesheet" type="text/css" href="./style.css" />
+    <script src="script.js"></script>
+    <title>Weather App!</title>
+  </head>
+  <body>
+    <div id="wrapper">
+      <h1>Weather</h1>
+      <p>Here is the weather for: <span id="location">SPAAAAAAAACE</span></p>
+      <p>Temperature: <span id="temp">-9000 °F</span></p>
+      <p>Conditions: <span id="cond">An endless void.</span></p>
+      <img id="condimg" src="./space.png" />
+      <p><button onclick="getLocation()">Show my current location!</button></p>
+      <h2>View weather data for specific location:</h2>
+      <p>Latitude: <input type="text" id="latinput" /></p>
+      <p>Longitude: <input type="text" id="loninput" /></p>
+      <p><button onclick="submit()">Submit</button></p>
+      <p><button onclick="convert()">Convert F <=> C</button></p>
+    </div>
+  </body>
+  <footer>
+    Written by
+    <a href="https://www.nhcarrigan.com" target="_blank" rel="noopener noreferrer">Nicholas Carrigan</a>.
+    API kindly provided by
+    <a href="https://www.freecodecamp.org" target="_blank" rel="noopener noreferrer">FreeCodeCamp</a>.
+  </footer>
+</html>
