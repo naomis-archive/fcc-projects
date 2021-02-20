@@ -1,0 +1,9 @@
+{
+  "name": "tic-tac-toe",
+  "author": "Nicholas Carrigan",
+  "description": "A tic-tac-toe game written in typescript",
+  "dependencies": {
+    "typescript": "^3.9.3"
+  },
+  "license": "AGPL-3.0-or-later"
+}

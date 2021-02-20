@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./wiki.css" type="text/css" />
+
+    <title>WikiPedia Viewer</title>
+  </head>
+  <body>
+    <div class="card">
+      <h1>WikiPedia Article Viewer</h1>
+      <p>
+        To view a random article, click the random button. To search for a
+        specific term, enter your query in the box and click search.
+      </p>
+      <form onsubmit="search(); return false;">
+        <button onclick="random()">Random</button>
+        <input
+          type="text"
+          id="search"
+          placeholder="Enter search term here."
+        /><button onclick="search()">Search!</button>
+      </form>
+    </div>
+    <div id="results"></div>
+  </body>
+  <hr />
+  <footer>
+    <a href="../index.html">Return to Project List</a> |
+    <a href="https://www.nhcarrigan.com">Return to HomePage</a>
+  </footer>
+  <script src="./wiki.js"></script>
+</html>

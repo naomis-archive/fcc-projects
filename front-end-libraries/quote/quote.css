@@ -1,0 +1,30 @@
+#quote-box {
+  border: 2px solid black;
+  margin: 0;
+  margin: auto;
+  width: 95vw;
+  max-width: 500px;
+  background-color: white;
+  color: black;
+  border-radius: 10px;
+  box-shadow: 10px 10px black;
+}
+body {
+  background: #3a3240;
+  color: white;
+  text-align: center;
+}
+
+footer {
+  text-align: center;
+  color: white;
+  margin-top: 20px;
+}
+.tweet {
+  color: blue;
+}
+
+a:not(.tweet) {
+  color: white;
+  text-decoration: underline;
+}

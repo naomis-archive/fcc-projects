@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./simon.css" type="text/css" />
+    <script src="./simon.js"></script>
+    <title>Simon</title>
+  </head>
+  <body>
+    <h1>Simon Game</h1>
+    <p>
+      This is a Simon Says game. The game will light up a button sequence, and
+      you must repeat that sequence by pressing the buttons. If the sequence is
+      correct, the game will add more to the sequence. If your sequence is
+      incorrect, you will lose the game. You win when you complete a sequence of
+      twenty buttons. To begin, click Start! To play the hardmode, choose Start
+      Strict!
+    </p>
+    <button class="start" onclick="start()">Start</button>
+    <button class="start" onclick="start(true)">Start Strict</button>
+    <div id="length-line">Sequence Length: <span id="length">0</span></div>
+    <div id="game-container">
+      <button id="red" onclick="press('red')"></button>
+      <button id="blue" onclick="press('blue')"></button>
+      <button id="green" onclick="press('green')"></button>
+      <button id="yellow" onclick="press('yellow')"></button>
+    </div>
+  </body>
+  <hr />
+  <footer>
+    <a href="../index.html">Return to Project List</a> |
+    <a href="https://www.nhcarrigan.com">Return to HomePage</a>
+  </footer>
+</html>

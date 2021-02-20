@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" type="text/css" href="./code.css" />
+    <title>Caesars Cipher</title>
+  </head>
+  <body>
+    <h1>Caesars Cipher</h1>
+    <div class="code-card">
+      <pre>
+        <code>
+function rot13(str) {
+    return str
+      .split("")
+      .map((el) =>
+        el.charCodeAt(0) >= 65 && el.charCodeAt(0) <= 90
+          ? el.charCodeAt(0) + 13 <= 90
+            ? String.fromCharCode(el.charCodeAt(0) + 13)
+            : String.fromCharCode(el.charCodeAt(0) - 13)
+          : el
+      )
+      .join("");
+  }
+        </code>
+      </pre>
+    </div>
+  </body>
+  <footer><a href="../index.html">Return to Project List</a></footer>
+</html>

@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Wallpoet&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" type="text/css" href="calculator.css" />
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.0/jquery.min.js"></script>
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/mathjs/7.2.0/math.js"
+      integrity="sha512-O3GZu6Lz0va4Lk7IuF3CjKx5Jfxi35Gcx3oAjH7m7KRP5xvqorrInDpg3OFVJ6dMPn03vHiwgkgPT/hWfguVfQ=="
+      crossorigin="anonymous"
+    ></script>
+    <script src="calculator.js"></script>
+    <title>JavaScript Calculator</title>
+  </head>
+  <body>
+    <h1>Calculator</h1>
+    <p>
+      This is a basic calculator written with JavaScript. You can press the
+      buttons OR use the numpad on your keyboard. The backspace key will clear the input.
+    </p>
+    <div id="calculator">
+      <div id="window">
+        <span class="display" id="display">0</span>
+      </div>
+      <p id="button row">
+        <button class="number" id="one" onClick="number(1)">1</button>
+        <button class="number" id="two" onClick="number(2)">2</button>
+        <button class="number" id="three" onClick="number(3)">3</button>
+        <button class="operand" id="add" onClick="operatorButton('+')">
+          +
+        </button>
+      </p>
+      <p id="button row">
+        <button class="number" id="four" onClick="number(4)">4</button>
+        <button class="number" id="five" onClick="number(5)">5</button>
+        <button class="number" id="six" onClick="number(6)">6</button>
+        <button class="operand" id="subtract" onClick="operatorButton('-')">
+          -
+        </button>
+      </p>
+      <p id="button row">
+        <button class="number" id="seven" onClick="number(7)">7</button>
+        <button class="number" id="eight" onClick="number(8)">8</button>
+        <button class="number" id="nine" onClick="number(9)">9</button>
+        <button class="operand" id="multiply" onClick="operatorButton('*')">
+          *
+        </button>
+      </p>
+      <p id="button row">
+        <button class="number" id="zero" onClick="number(0)">0</button>
+        <button class="number" id="decimal" onClick="addDecimal()">.</button>
+        <button class="clear" id="clear" onClick="clearButton()">AC</button>
+        <button class="operand" id="divide" onClick="operatorButton('/')">
+          /
+        </button>
+      </p>
+      <p id="button row">
+        <button class="equals" id="equals" onClick="calculate()">=</button>
+      </p>
+    </div>
+  </body>
+  <footer>
+    <a href="../index.html">Return to Project List</a> |
+    <a href="https://www.nhcarrigan.com">Return to HomePage</a>
+  </footer>
+  <script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script>
+</html>

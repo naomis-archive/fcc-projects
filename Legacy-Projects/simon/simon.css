@@ -1,0 +1,54 @@
+body {
+  background-color: #632b80;
+  color: #ffffff;
+  margin: 0;
+  text-align: center;
+}
+
+a {
+  color: #ffffff;
+}
+
+#game-container {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  width: 600px;
+  margin: auto;
+  gap: 20px;
+}
+
+button:not(.start) {
+    width: 300px;
+    height: 300px;
+    border: 0px;
+    box-shadow: 10px 10px 10px 5px black;
+    outline: none;
+}
+
+#red {
+    background-color: red;
+    border-radius: 50%;
+}
+
+#blue {
+    background-color: blue;
+    border-radius: 50%;
+}
+
+#green {
+    background-color: green;
+    border-radius: 50%
+}
+
+#yellow {
+    background-color: yellow;
+    border-radius: 50%
+}
+
+.lit {
+    background-color: white !important;
+}
+
+#length-line {
+    margin-bottom: 20px;
+}
