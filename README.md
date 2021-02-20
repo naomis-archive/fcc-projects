@@ -1,9 +1,9 @@
-# Project Name
+# freeCodeCamp Projects
 <!-- ALL-CONTRIBUTORS-BADGE:START - Do not remove or modify this section -->
 [![All Contributors](https://img.shields.io/badge/all_contributors-1-orange.svg?style=flat-square)](#contributors-)
 <!-- ALL-CONTRIBUTORS-BADGE:END -->
 
-Project Description
+These are the projects I submitted to obtain my freeCodeCamp certifications during the beginning of my development journey. Many of these projects are significantly outdated, but have been preserved in their unmodified form for posterity.
 
 ## Live Version
 

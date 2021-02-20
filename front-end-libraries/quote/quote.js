@@ -2,7 +2,7 @@ let quoteData, parsedData, quoteList;
 
 const setup = async () => {
   quoteData = await fetch(
-    "https://raw.githubusercontent.com/nhcarrigan/becca-lyria/master/src/resources/motivational-quotes.json"
+    "https://github.com/nhcarrigan/Becca-Lyria/blob/main/src/utils/commands/motivational-quotes.json"
   );
   parsedData = await quoteData.json();
   quoteList = parsedData.motivationalQuotes;
