@@ -2,6 +2,8 @@
 
 These are the projects I submitted to obtain my freeCodeCamp certifications during the beginning of my development journey. Many of these projects are significantly outdated, but have been preserved in their unmodified form for posterity.
 
+NOTE: Pull Requests are not accepted to this repository. These projects are being [migrated to a new version](https://github.com/nhcarrigan/freecodecamp-projects), which is where you should make contributions.
+
 ## Live Version
 
 This page is currently deployed. [View the live website.](https://www.nhcarrigan.com/fcc-projects)
@@ -24,10 +26,10 @@ Copyright (C) 2020 Nicholas Carrigan
 
 This program is free software: you can redistribute it and/or modify it under the terms of the GNU Affero General Public License as published by the Free Software Foundation, either version 3 of the License, or (at your option) any later version.
 
-This program is distributed in the hope that it will be useful, but WITHOUT ANY WARRANTY; without even the implied warranty of MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the GNU Affero General Public License for more details.
+This program is distributed in the hope that it will be useful, but WITHOUT ANY WARRANTY; without even the implied warranty of MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE. See the GNU Affero General Public License for more details.
 
 The full license terms may be viewed in the [LICENSE.md file](./LICENSE.md)
 
 ## Contact
 
-We may be contacted through our [Chat Server](http://chat.nhcarrigan.com) or via [email form](https://contact.nhcarrigan.com).
+We may be contacted through our [Chat Server](https://chat.nhcarrigan.com).
