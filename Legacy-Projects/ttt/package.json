@@ -1,6 +1,6 @@
 {
   "name": "tic-tac-toe",
-  "author": "Nicholas Carrigan",
+  "author": "Naomi Carrigan",
   "description": "A tic-tac-toe game written in typescript",
   "dependencies": {
     "typescript": "^3.9.3"

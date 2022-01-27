@@ -2,7 +2,7 @@
   "name": "file_metadata",
   "version": "0.0.1",
   "description": "API project for freeCodeCamp",
-  "author": "Nicholas Carrigan",
+  "author": "Naomi Carrigan",
   "main": "server.js",
   "scripts": {
     "start": "node server.js"

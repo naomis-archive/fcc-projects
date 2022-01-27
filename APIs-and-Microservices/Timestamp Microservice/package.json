@@ -2,7 +2,7 @@
 	"name": "fcc-api-projects-boilerplate",
 	"version": "0.0.1",
 	"description": "An FCC Backend Challenge",
-	"author": "Nicholas Carrigan",
+	"author": "Naomi Carrigan",
 	"main": "server.js",
 	"scripts": {
 		"start": "node server.js"

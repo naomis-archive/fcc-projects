@@ -2,7 +2,7 @@
   "name": "american-british-english-translator",
   "version": "1.0.0",
   "description": "Quality Assurance 5: American / British English Translator",
-  "author": "Nicholas Carrigan",
+  "author": "Naomi Carrigan",
   "main": "server.js",
   "scripts": {
     "start": "nodemon server.js",

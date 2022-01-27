@@ -2,7 +2,7 @@
   "name": "sudoku-solver",
   "version": "1.0.0",
   "description": "Quality Assurance 4: Sudoku Solver",
-  "author": "Nicholas Carrigan",
+  "author": "Naomi Carrigan",
   "main": "index.js",
   "scripts": {
     "start": "nodemon server.js",

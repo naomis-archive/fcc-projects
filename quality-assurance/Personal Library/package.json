@@ -2,7 +2,7 @@
   "name": "fcc-library",
   "version": "0.0.1",
   "description": "boilerplate",
-  "author": "Nicholas Carrigan",
+  "author": "Naomi Carrigan",
   "main": "server.js",
   "scripts": {
     "start": "node server.js",

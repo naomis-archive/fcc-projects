@@ -2,7 +2,7 @@
   "name": "my-hyperdev-app",
   "version": "0.0.1",
   "description": "What am I about?",
-  "author": "Nicholas Carrigan",
+  "author": "Naomi Carrigan",
   "main": "server.js",
   "scripts": {
     "start": "node server.js",

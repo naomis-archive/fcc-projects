@@ -1,7 +1,7 @@
 function setup() {
   let placeholder = `# Welcome to my Markdown Previewer!
 
-## This app brought to you by Nicholas Carrigan
+## This app brought to you by Naomi Carrigan
 ### Here's some instructions!
   
 In-line code goes between two backticks: \`<div></div>\`
